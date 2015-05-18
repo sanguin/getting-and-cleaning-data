@@ -1,8 +1,9 @@
 # getting-and-cleaning-data
-## for project assignment
-## 1.download the project file 
-## 2.unzip to current working directory
-## 3.you can use the script: dir.exists(paste(getwd() , "/UCI HAR Dataset", sep="")) to check if the dir is exists
+## for project assignment:
+*1.download the project file 
+*2.unzip to current working directory
+*3.you can use the script: dir.exists(paste(getwd() , "/UCI HAR Dataset", sep="")) to check if the dir is exists
+
 ~~~R
 rm(list = ls(all=TRUE))
 library(plyr);
